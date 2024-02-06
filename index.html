@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing Tool</title>
+    <style>
+        /* Add some basic styling */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-container {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-container">
+            <h2>Original Image</h2>
+            <input type="file" id="imageInput">
+            <img id="originalImage" src="#" alt="Original Image">
+        </div>
+        <div class="image-container">
+            <h2>Modified Image</h2>
+            <img id="modifiedImage" src="#" alt="Modified Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
